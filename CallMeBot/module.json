@@ -1,0 +1,15 @@
+{
+    "id": "{642E714E-D474-3524-DAE6-5BDACE698B88}",
+    "name": "CallMeBot",
+    "type": 3,
+    "vendor": "",
+    "aliases":
+    [
+        "CallMeBot (WhatsApp)"
+    ],
+    "url": "https://github.com/Housemann/CallMeBot",
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "CMB"
+}

@@ -1,0 +1,74 @@
+{
+    "elements": [
+        { 
+            "type": "Label",
+            "caption": "************************** CallMeBot **************************"
+        },
+        { 
+            "type": "Label",
+            "caption": "https://www.callmebot.com/blog/free-api-whatsapp-messages/"
+        },
+        { 
+            "type": "Label",
+            "caption": "Setup:\n1. Add the phone number +34 644 20 47 56 into your Phone Contacts. (Name it it as you wish)\n2. Send this message \"I allow callmebot to send me messages\" to the new Contact created (using WhatsApp of course)\n3. Wait until you receive the message \"API Activated for your phone number. Your APIKEY is 123123\" from the bot. As this is still in beta testing, the activation can take up to 2 minutes.\n4.The WhatsApp message from the bot will contain the apikey needed to send messages using the API."
+        },
+        { 
+            "type": "Label",
+            "caption": "***************************************************************"
+        },
+        { 
+            "type": "Label"
+        },
+        { 
+            "type": "Label",
+            "caption": "ApiKey from CallMeBot"
+        },
+        { 
+            "type": "ValidationTextBox", 
+            "name": "APIKey", 
+            "caption": "API Key"
+        },
+        { 
+            "type": "Label"
+        },
+        { 
+            "type": "Label",
+            "caption": "HandyNumber with prefix  (+4915100000000)"
+        },
+        { 
+            "type": "ValidationTextBox", 
+            "name": "HandyNumber", 
+            "caption": "Handy Number"
+        },
+        { 
+            "type": "Label"
+        },
+        { 
+            "type": "ValidationTextBox", 
+            "name": "Message", 
+            "caption": "Message"
+        },
+        { 
+            "type": "Label"
+        },
+        {
+            "type": "ExpansionPanel",
+            "caption": "MessageBox visible...",
+            "items": [
+              {
+                "type": "CheckBox",
+                "name": "MessageBoxVisible", 
+                "caption": "MessageBox is visible"
+              }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Button",
+            "caption": "Send Test Message",
+            "onClick": "CMB_Test_SendToWhatsApp($id);"
+        }
+    ],
+    "status": []
+}

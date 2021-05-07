@@ -1,0 +1,26 @@
+{
+    "translations": {
+        "de": {
+            "Setup:\n1. Add the phone number +34 644 20 47 56 into your Phone Contacts. (Name it it as you wish)\n2. Send this message \"I allow callmebot to send me messages\" to the new Contact created (using WhatsApp of course)\n3. Wait until you receive the message \"API Activated for your phone number. Your APIKEY is 123123\" from the bot. As this is still in beta testing, the activation can take up to 2 minutes.\n4.The WhatsApp message from the bot will contain the apikey needed to send messages using the API.": "Setup:\n1. Fügen Sie die Rufnummer +34 644 20 47 56 zu Ihren Telefonkontakten hinzu. (Benennen Sie sie nach Wunsch)\n2. Senden Sie die Nachricht \"Ich erlaube callmebot mir nachrichten zu senden\" an den neu angelegten Kontakt (natürlich über WhatsApp)\n3. Warten Sie, bis Sie die Meldung \"CallMeBot API aktiviert für +49XXXX. Ihr API-KEY lautet 123123\" vom Bot erhalten. Die Aktivierung kann bis zu 2 Minuten dauern.\n4 .Die WhatsApp-Nachricht des Bots enthält den API-Key , der zum Senden von Nachrichten über die API benötigt wird.",
+            "ApiKey from CallMeBot": "ApiKey für CallMeBot",
+            "HandyNumber with prefix  (+4915100000000)": "Handynummer mit Vorwahl  (+4915100000000)",
+            "Handy Number": "Handynummer",
+            "Message": "Nachricht",
+            "Send Test Message": "Test Nachricht",
+            "MessageBox is visible": "Meldungsbox verstecken",
+            "MessageBox visible...": "Meldungebox verstecken....",
+            "Return Value": "Rückgabe"
+        },
+        "de_DE": {
+            "Setup:\n1. Add the phone number +34 644 20 47 56 into your Phone Contacts. (Name it it as you wish)\n2. Send this message \"I allow callmebot to send me messages\" to the new Contact created (using WhatsApp of course)\n3. Wait until you receive the message \"API Activated for your phone number. Your APIKEY is 123123\" from the bot. As this is still in beta testing, the activation can take up to 2 minutes.\n4.The WhatsApp message from the bot will contain the apikey needed to send messages using the API.": "Setup:\n1. Fügen Sie die Rufnummer +34 644 20 47 56 zu Ihren Telefonkontakten hinzu. (Benennen Sie sie nach Wunsch)\n2. Senden Sie die Nachricht \"Ich erlaube callmebot mir nachrichten zu senden\" an den neu angelegten Kontakt (natürlich über WhatsApp)\n3. Warten Sie, bis Sie die Meldung \"CallMeBot API aktiviert für +49XXXX. Ihr API-KEY lautet 123123\" vom Bot erhalten. Die Aktivierung kann bis zu 2 Minuten dauern.\n4 .Die WhatsApp-Nachricht des Bots enthält den API-Key , der zum Senden von Nachrichten über die API benötigt wird.",
+            "ApiKey from CallMeBot": "ApiKey für CallMeBot",
+            "HandyNumber with prefix  (+4915100000000)": "Handynummer mit Vorwahl  (+4915100000000)",
+            "Handy Number": "Handynummer",
+            "Message": "Nachricht",
+            "Send Test Message": "Test Nachricht",
+            "MessageBox is visible": "Meldungsbox verstecken",
+            "MessageBox visible...": "Meldungebox verstecken....",
+            "Return Value": "Rückgabe"
+        }
+    }
+}
