@@ -42,9 +42,12 @@ declare(strict_types=1);
 		}
 
 
-
+		/*
 		public function SendToWhatsAppEx (string $PhoneNumber, string $Message, string $ApiKey) 
 		{
+				$PhoneNumber = $this->ReadPropertyString("HandyNumber");
+				$ApiKey = $this->ReadPropertyString("APIKey");
+				
 				$return = $this->CheckUp ($PhoneNumber, $Message, $ApiKey);
 				
 				if($return["ErrorCode"]>=0)
@@ -63,11 +66,11 @@ declare(strict_types=1);
 					return $return;
 				}
 		}
-
+		*/
 
 		public function SendToWhatsApp ($Message) 
 		{
-				$PhoneNumber = $this->ReadPropertyString("HandyNumber");				
+				$PhoneNumber = $this->ReadPropertyString("HandyNumber");
 				$ApiKey = $this->ReadPropertyString("APIKey");
 
 				$return = $this->CheckUp ($PhoneNumber, $Message, $ApiKey);

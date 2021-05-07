@@ -59,8 +59,3 @@ Funktion zum senden einer Nachricht für die API und Nummer, die im Formular hin
 ```php
 CMB_SendToWhatsApp($Instance, string $Message);
 ```
-
-Funktion zum senden einer Nachricht mit Übergabe der Nummer, API und Nachricht.
-```php
-CMB_SendToWhatsAppEx($Instance, string $PhoneNumber, string $Message, string $ApiKey);
-```
